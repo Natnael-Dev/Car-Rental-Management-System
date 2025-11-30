@@ -1,0 +1,36 @@
+# Compiled class files
+*.class
+
+# Data files generated at runtime
+vehicles.txt
+customers.txt
+bookings.txt
+rentals.txt
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.eclipse
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Runtime data files
+vehicles.txt
+customers.txt
+bookings.txt
+rentals.txt
+
+# OS files
+.DS_Store
+Thumbs.db
