@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// Rental — manages active rentals, charge calculation, and fee tracking
+
 class Rental extends AbstractEntity {
     private Booking booking;
     private double  rentalCharges;
