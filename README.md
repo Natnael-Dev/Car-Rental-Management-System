@@ -104,3 +104,10 @@ On first run the system auto-creates these data files:
 
 \- `rentals.txt` — stores all rental records
 
+
+## OOP Design Decisions
+
+- `AbstractEntity` enforces a contract all entities must follow via abstract methods
+- Each entity manages its own file I/O through `loadFromFile()` and `saveToFile()`
+- Static lists act as in-memory storage shared across the application
+- `Scanner` is shared via `AbstractEntity` to avoid multiple open input streams
