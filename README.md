@@ -111,3 +111,11 @@ On first run the system auto-creates these data files:
 - Each entity manages its own file I/O through `loadFromFile()` and `saveToFile()`
 - Static lists act as in-memory storage shared across the application
 - `Scanner` is shared via `AbstractEntity` to avoid multiple open input streams
+
+## Future Improvements
+
+- Add password hashing for secure authentication
+- Implement invoice/receipt generation
+- Add vehicle category filtering
+- Support multiple admin users
+- Export reports to CSV
