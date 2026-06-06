@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// AbstractEntity — base class enforcing a shared contract across all system entities
 abstract class AbstractEntity {
     protected static final Scanner scanner = new Scanner(System.in);
 
