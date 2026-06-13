@@ -41,7 +41,7 @@ A console-based **Car Rental Management System** built in Java using **Object-Or
 ### Compile
 
 ```bash
-javac \*.java
+javac \\\*.java
 ```
 
 ### Run
@@ -89,4 +89,18 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 This project is for educational purposes as part of a 3rd year Computer Science OOP course.
 
 
+
+\## Sample Data
+
+
+
+On first run the system auto-creates these data files:
+
+\- `vehicles.txt` — stores all vehicle records
+
+\- `customers.txt` — stores all customer records  
+
+\- `bookings.txt` — stores all booking records
+
+\- `rentals.txt` — stores all rental records
 
